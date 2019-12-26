@@ -1,0 +1,33 @@
+body,
+div,
+form,
+img,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+p {
+	margin: 0px;
+	padding: 0px;
+	border: 0px none;
+	list-style: none outside none;
+	text-decoration: none;
+}
+
+#Frame {
+	position: absolute;
+	background: url(../img/back.jpg) repeat-x;
+	width: 1520px;
+	height: 44px;
+	top: 0px;
+}
+
+.chaos {
+	background-color: #EDEDED;
+	width: 1520px;
+	height: 100%;
+}
+

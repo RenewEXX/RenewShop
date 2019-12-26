@@ -1,0 +1,263 @@
+body {
+	width: 1200px;
+	height: 800px;
+	background: url(../img/wallhaven-206741.jpg) no-repeat;
+
+}
+
+#loginImg {
+	height: 800px;
+	width: 600px;
+	z-index: 30;
+}
+
+#loginin {
+	height: 60px;
+	width: 350px;
+	background-color: #C40000;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	position: absolute;
+	right: 400px;
+	top: 660px
+}
+
+#loginin:hover {
+	background-color: #740505
+}
+
+#loginin:active {
+	background-color: #740505;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#idFont {
+	font-size: 20px;
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	color: #808080;
+}
+
+#menu {
+	background: white;
+	width: 1000px;
+	height: 800px;
+	position: absolute;
+	right: 300px;
+	top: 5px;
+	left: 200px;
+
+	margin-bottom: 15px;
+	border-radius: 15px;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .05);
+	-webkit-box-shadow: #d4d2d2 0px 0px 100px;
+	-moz-box-shadow: #d4d2d2 0px 0px 100px;
+
+
+}
+
+#registerImg {
+	position: absolute;
+
+	left: 140px
+}
+
+.name {
+	width: 250px;
+	height: 30px;
+	position: absolute;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 30px;
+	left: 240px;
+	top: 200px;
+}
+.email {
+	width: 250px;
+	height: 30px;
+	position: absolute;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 30px;
+	left: 240px;
+	top: 250px;
+}
+.ever {
+	width: 350px;
+	height: 130px;
+	position: absolute;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 30px;
+	left: 240px;
+	top: 470px;
+}
+
+ul {
+	list-style: none;
+}
+
+form {
+	position: absolute;
+	left: 240px;
+	top: 300px;
+}
+
+select {
+	width: 140px;
+	height: 30px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 30px;
+}
+
+
+
+.test-input {
+	width: 200px;
+	display: contents;
+
+}
+
+.test-label {
+	position: relative;
+	font-size: 0;
+}
+
+.test-radio {
+	display: none;
+}
+
+.silde-lr-btn {
+	background-color: rgb(181, 181, 181);
+	width: 32px;
+	display: inline-block;
+	height: 20px;
+	text-align: center;
+}
+
+.test-radio:checked+.silde-lr-btn:after {
+	background-color: rgb(233, 150, 5);
+	content: "";
+	color: #fff;
+	width: 32px;
+	height: 20px;
+	position: absolute;
+	left: 0;
+}
+
+.silde-text {
+	position: absolute;
+	font-size: 14px;
+	z-index: 1;
+	left: 13px;
+}
+
+.test-radio:checked~.silde-text {
+	color: #fff;
+}
+
+#sex {
+	position: absolute;
+	left: 240px;
+	top: 370px
+}
+
+#love {
+	position: relative;
+	left: -40px;
+	top: 120px
+}
+
+
+#photo {
+	position: absolute;
+	left: 620px;
+	top: 80px
+}
+
+ul li {
+	list-style: none;
+}
+
+textarea {
+	resize: none;
+}
+
+.btn {
+	outline: none;
+	padding: 8px 10px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.fr {
+	float: right;
+}
+
+.container {
+	width: 280px;
+	margin: 20px auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 10px 12px;
+}
+
+.header {
+	position: relative;
+}
+
+.header_detail {
+	height: 40px;
+}
+
+.send {
+	background: blueviolet;
+}
+
+.view {
+	min-height: 100px;
+	border: 1px solid black;
+	padding: 10px 12px;
+	display: none;
+}
+
+.view .item {
+	display: inline-block;
+	margin-right: 19px;
+	margin-bottom: 5px;
+}
+
+.view img {
+	width: 250px;
+	height: 250px;
+}
+
+.load {
+	display: inline-block;
+	width: 100px;
+	height: 24px;
+	overflow: hidden;
+	position: relative;
+	background: url(img/load.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.load input {
+	position: absolute;
+	right: 0;
+	top: 0;
+	opacity: 0;
+}
+
+.list {
+	margin-top: 20px;
+}

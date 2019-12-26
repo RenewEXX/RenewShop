@@ -1,0 +1,65 @@
+ .coco
+    {
+         font-family:Arial;
+         font-style:italic;
+         color:blue;
+         font-size:30px;
+         border:0;
+         padding:2px 3px;
+         letter-spacing:3px;
+         font-weight:bolder;            
+         float:left;           
+         cursor:pointer;
+         width:150px;
+         height:50px;
+         line-height:60px;
+         text-align:center;
+         vertical-align:middle;
+         background-color:#D8B7E3;
+     }
+     .ego {
+        text-decoration:none;
+        font-size:12px;
+        color:#288bc4;
+        padding-left:10px;
+    }
+
+   .ego:hover {
+        text-decoration:underline;
+        cursor:pointer;
+    }
+	
+	
+#inputCode{
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 30px;
+	
+}
+#yeh {
+	height: 40px;
+	width: 90px;
+	background-color: #C40000;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: -10px 42px;
+	cursor: pointer;
+	position: absolute;
+	
+}
+
+#yeh:hover {
+	background-color: #740505
+}
+
+#yeh:active {
+	background-color: #740505;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}

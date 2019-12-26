@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>注册</title>
+		
+		<!--  ❤  Logo   ❤ -->
+		<link rel="shortcut icon" href="bg_favicon.ico" />
+		<link rel="bookmark" href="bg_favicon.ico" />
+
+		<!--  ❤  Css   ❤ -->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+		<link rel="stylesheet" type="text/css" href="css/ego.css" />
+		<!--  ❤  Js  ❤ -->
+		<script src="js/photo.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/email.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/ego.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/user.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body>
+		<div class="register">
+			<div id="menu">
+
+				<!--  ❤  左边   ❤ -->
+				<ul>
+					<div id="registerImg"><img src="img/logi.png"></div>
+					<b id="idFont">账户注册</b>
+
+					<li>
+						<input type="text" name="name" class="name" value="姓名" id="user" onfocus="javascript:if(this.value=='姓名')this.value='';">
+					</li>
+						
+					
+					<li>
+						<input type="text" name="email" class="email" value="邮箱" id="email" onfocus="javascript:if(this.value=='邮箱')this.value='';">
+					</li>
+					<script type="text/javascript">
+						E();
+					</script>
+					<form>
+						<label for="unittype">喜欢的颜色:&nbsp;&nbsp;&nbsp;</label>
+						<select name="color">
+							<option value="red" selected="selected">血红</option>
+							<option value="yellow">黄</option>
+							<option value="blue">蓝</option>
+							<option value="green">绿</option>
+						</select>
+					</form>
+
+					<div id="sex">
+						<div class="test-input">
+							<label for="unittype">性别:&nbsp;&nbsp;&nbsp;</label>
+							<label class="test-label">
+								<input class="test-radio" type="radio" name="radio" value="0" checked="checked">
+								<span class="silde-lr-btn"></span>
+								<span class="silde-text">男</span>
+							</label>
+							<label class="test-label">
+								<input class="test-radio" type="radio" name="radio" value="1">
+								<span class="silde-lr-btn"></span>
+								<span class="silde-text">女</span>
+							</label>
+						</div>
+					</div>
+
+
+					<div id="love">
+						<form>
+							<label for="unittype">爱好:&nbsp;&nbsp;&nbsp;</label>
+							<input type="checkbox" name="vehicle" value="eat" />吃饭
+							<input type="checkbox" name="vehicle" value="sleep" />睡觉
+							<input type="checkbox" name="vehicle" value="fight" />打豆豆
+
+						</form>
+					</div>
+
+
+					<li><input type="text" name="ever" class="ever" value="个人简历" onfocus="javascript:if(this.value=='个人简历')this.value='';">
+					</li>
+					<li></li>
+					<a href="index.html"> <button type="button" id="loginin">注册</button></a>
+
+				</ul>
+
+
+
+				<!--  ❤  图片上次   ❤ -->
+
+
+				<div id="photo">
+
+
+
+
+					<div class="container">
+						<div class="header">
+							<div class="header_detail">
+								<a href="javascript:;" class="load">
+									<input type="file" name="file" id="flie" />
+								</a>
+								<button class="btn fr send">⬅单击左边空白处上传照片</button>
+							</div>
+							<div class="view" id="view">
+								<!--<div class="item">
+								<img src="img/1.jpg" />
+								</div>-->
+
+							</div>
+						</div>
+						<script type="text/javascript">
+							aa();
+						</script>
+
+					</div>
+
+					<!--  ❤  验证码   ❤ -->
+
+					<div>
+						<table border="0" cellspacing="5" cellpadding="5">
+							<tr>
+								<td>
+									<div id="checkCode" class="coco" onclick="createCode(4)"></div>
+								</td>
+								<td> <span onclick="createCode(4)" class="ego">看不清换一张</span></td>
+							</tr>
+							<tr>
+
+								<td>验证码：<input type="text" id="inputCode" style="float:left;" /></td>
+
+
+								<td><input type="button" id="yeh" onclick="validateCode()" value="确定" /></td>
+							</tr>
+						</table>
+
+
+					</div>
+
+
+
+
+				</div>
+			</div>
+	</body>
+</html>

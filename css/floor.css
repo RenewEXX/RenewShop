@@ -1,0 +1,58 @@
+ @media screen and (max-device-width: 100px) {  .left{ float:none;} }
+ .floor{
+	 position:absolute;
+	 z-index: 50;
+	 }
+ 
+ .floor li{
+	 
+	 list-style: none;
+	 float: left;
+	z-index: 100;
+	 
+ }
+ .floor li a {
+	
+	 display: inline-block;
+	 height: 2.75rem;
+	 background: url(../img/back-to.jpg) no-repeat;
+	 text-decoration: none;
+	 color: #fff;
+	 font-size: 0.75rem;
+	 padding-left: 1.875rem;
+	 line-height: 2.75rem;
+	 
+	
+ }
+ .floor li a span{
+	 
+	 display: inline-block;
+	 height: 2.75rem;
+	 background: url(../img/to.jpg) no-repeat right;
+	 padding-right: 1.875rem;
+	
+ }
+ .floor a:hover , .floor a:hover span{
+	 
+	 background: url(../img/to.jpg);
+	
+ }
+ .logo{
+	 float: left;
+	 padding-top: 0.625rem;
+	 padding-left: 1.25rem;
+	 padding-right: 6.25rem;
+	 
+ }
+ .user{
+	 float: left;
+	 padding-top: 0.4375rem;
+	 padding-left: 13.75rem;
+	
+ }
+ .cart{
+	 float: left;
+	 padding-top:0.5rem;
+	 padding-left: 0.1875rem;
+	
+ }

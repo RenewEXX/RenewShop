@@ -1,0 +1,118 @@
+* {
+				box-sizing: border-box;
+			}
+
+			body {
+				background: #000;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				text-shadow: 0px 0px 80px;
+			}
+
+			h1 {
+				font-size: 59px;
+				margin: 0;
+				padding: 0;
+				color: #0ff;
+			}
+
+			a {
+				color: #fff;
+			}
+
+			
+			p {
+				margin: 0;
+			}
+
+			.box {
+				
+				width: 700px;
+				
+				text-align: center;
+				
+				color: #fff;
+
+				position: absolute;
+				margin: 20px auto 0;
+				top: 20px;
+				left: 0;
+				right: 0;
+			}
+
+		
+
+			img {
+				
+				width: 500px;
+				height: 320px;
+				
+				border: 2px solid #222;
+				
+				border-radius: 5px;
+				
+				transition: 0.8s;
+				
+				box-shadow: 1px 1px 40px white;
+			}
+
+			.img2:hover {
+				border: 2px solid #980b18
+			}
+
+			.box>div {
+				padding: 20px;
+				/* border: 1px solid #f00; */
+			}
+
+			.szj {
+				position: absolute;
+				top: 0;
+				left: 0;
+				color: #fff;
+				padding: 5px;
+				border: 1px solid #eee;
+				background-color: rgb(0, 0, 0, 0.7)
+			}
+
+			.yl {
+				display: inline;
+				border-bottom: 1px dotted #0ff;
+			}
+
+			.yl a {
+				text-decoration: none;
+				color: #c6d491;
+
+			}
+
+			.yl span {
+				margin-right: 8px;
+			}
+			#mimi{
+				position: absolute;
+				
+				height:450px ;
+				width: 1542px;
+				left: -421px;
+				top: 120px;
+				border: solid 3px red; 
+			}
+			#p{
+				position:absolute;
+				right: 10px;
+			}
+			#go{
+				position: relative;
+				left: 75px;
+			}
+			
+			.ma{
+				width: 400px;
+				height:170px ;
+			}
+			#myaudio{
+				position: relative;
+				width: 100%;
+			}
